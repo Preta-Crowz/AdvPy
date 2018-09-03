@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
-from operation import *
-import advnum
+from .operation import *
+from . import advnum
 
 # define infinity and nan
 infinity = advnum._infinity(1)
@@ -15,6 +15,6 @@ MinusInfinity = advnum._infinity(-1)
 NaN = advnum._infinity(0)
 
 # define others
-none = new(None)
-null = new(None)
-Null = new(None)
+none = type(None)()
+null = type(None)()
+Null = type(None)()

@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 setup(name='pyadv',
-      version='0.1',
+      version='0.101',
       url='https://github.com/Preta-Crowz/PyAdv',
       license='MIT',
       author='Preta',

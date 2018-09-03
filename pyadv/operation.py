@@ -4,7 +4,7 @@ def ternary(a,b,c): return b if a else c
 
 def sametype(a,b): return type(a) == type(b)
 
-def new(a): type(a)(a)
+def new(a): return type(a)(a)
 
 def strictSame(a,b):
     if type(a) != type(b): return False
